@@ -1,0 +1,113 @@
+/* body{
+    background-color: #ccc;
+} */
+.invoice{
+    background-color: #ccc;
+}
+.upper_invoice{
+    background-color: #fff;
+    padding: 15px 10px 15px 10px;
+}
+
+.upper_invoice h2{
+    color: rgb(235, 154, 5);
+    padding-left: 10px;
+}
+
+.upper_invoice i{
+    color: rgb(235, 154, 5);
+    padding-right: 15px;
+}
+
+.upper_invoice hr{
+top: 100px;
+}
+
+.upper_invoice .in_details{
+    display: flex;
+    margin: 40px 10px 10px 10px;
+}
+
+.in_details .rideno{
+    border: 1px solid #ccc;
+    height: 80px;
+    width: 26%;
+    padding: 20px 15px;
+    display: block;
+}
+
+.in_details .inVehicle{
+    border: 1px solid #ccc;
+    height: 80px;
+    width: 26%;
+    padding: 20px 15px;
+    display: block;
+}
+
+.in_details .Trip_time{
+    border: 1px solid #ccc;
+    height: 80px;
+    width: 26%;
+    padding: 20px 15px;
+    display: block;
+}
+
+.in_details .Distance{
+    border: 1px solid #ccc;
+    height: 80px;
+    width: 26%;
+    padding: 20px 15px;
+    display: block;
+}
+
+.in_details input{
+    border-style: none;
+}
+
+.in_details label{
+    font-weight: bold;
+}
+
+.lower_invoice{
+    margin: 10px 10px 0px 10px;
+    display: flex;
+}
+
+.in_map{
+    margin-right: 20px;
+    width: 80%;
+    background-color: rebeccapurple;
+    background: url(../assets/map.png);
+    height: 310px;
+    background-size:auto;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+
+
+.full_detail{
+    display: flex;
+    flex-direction: column;
+    width: 25%;         
+    height: 310px;
+    overflow-y: scroll;
+    background-color: #fff;
+    padding: 20px;
+    /* margin-left: ; */
+}
+
+.full_detail label{
+    font-weight: bold;
+}
+
+.full_detail input{
+    margin-bottom: 30px;
+    width: 60%;
+    border-style: none;
+    margin-left: 25px;
+}
+
+.full_detail i{
+    margin-right: 10px;
+}

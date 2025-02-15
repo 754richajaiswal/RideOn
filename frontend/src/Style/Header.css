@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.main{
+    height: 150vh;
+    width: 100%;
+    position: relative;
+}
+
+.nav .home_img{
+    width: 100%;
+    height: 80vh;
+    background-image: url(https://themewagon.github.io/Cental/img/carousel-2.jpg);
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:bottom ;
+    background-blend-mode: hue;
+}
+
+.section1{
+    width: 30%;
+    height: 30%;
+    position: absolute;
+    left: 50px;
+    top: 35%;
+    background-color: rgba(0, 0, 0, 0.836);
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgb(165, 164, 164);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.section1 h2{
+font-size: 30px;
+margin-bottom: 15px;
+color: #fff;
+}
+
+.section1 input{
+    margin: 8px;
+    width: 90%;
+    padding: 15px;
+    background-color: #fff;
+    border-style: none;
+    border-radius: 5px;
+}
+
+.section1 input::placeholder{
+font-size: 16px;
+}
+
+
+.section1 button{
+    margin-top: 12px;
+    width: 90%;
+    padding: 12px;
+    border-style: none;
+    background-color: hsl(56, 100%, 50%);
+    color: black;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.section1 button:hover{
+    font-size: 21px;
+    background-color: black;
+    color: #fff;
+}
+
+.work{
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    padding: 20px 20px 20px 20px;
+    margin-top: 55px;
+}
+
+.work h2{
+    margin-left: 40%;
+    margin-top: 80px;
+    font-size: 40px;
+}
+
+.work p{
+    margin-left: 25%;
+    margin-top: 10px;
+}
+
+.content2{
+    width: 100%;
+    display: flex;
+    height: 60%;
+    margin-top: 70px;
+    padding: 15px 20px;
+}
+
+.content2 .one{
+    width: 20%;
+    height: 100%;
+    margin: 0px 30px;
+   box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.363);
+   position: relative;
+   /* display: flex;
+   justify-content: center; */
+   padding: 20px 0px;
+   transition: transform 0.3s ease-in-out;
+}
+
+.content2 .one:hover{
+    transform: scale(1.1);
+}
+
+
+
+.content2 i{
+    font-size: 45px;
+    position: absolute;
+    left: 90px;
+}
+
+.one h3{
+    margin-top: 70px;
+    margin-left: 40px; 
+    font-size: 18px;
+}
+
+.one p{
+    margin-left: 20px;
+    color: darkgrey;
+    font-size: 13px;
+}

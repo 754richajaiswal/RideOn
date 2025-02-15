@@ -1,0 +1,132 @@
+
+.payment_gateway{
+    width: 350px;
+    min-height: 350px;
+    background-color:beige;
+    position: absolute;
+    top: 100px;
+    left: 70%;
+    box-shadow: 0px 0px 10px black;
+    padding: 15px;
+    transition: all 0.3s ease;
+}
+
+.heading{
+   border-bottom: 1px solid grey ;
+   border-style: dashed;
+   border-top: none;
+   border-left: none;
+   border-right: none;
+   padding-bottom: 10px;
+
+}
+.payment_gateway .heading h3{
+    padding: 15px 0px 30px 0px;
+}
+
+.heading i{
+    margin-right: 15px;
+}
+
+.others{
+    margin-top: 30px;
+    padding: 15px 0px 15px 0px;
+}
+
+.others label{
+    margin-right: 70%;
+}
+
+.others i{
+    margin-right: 10px;
+}
+
+.others .input{
+    width: 100%;
+    background-color: #fff;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.upi{
+    padding: 15px 0px 15px 0px;
+}
+
+.upi label{
+    margin-right: 59%;
+}
+
+.upi .input{
+    width: 100%;
+    background-color: #fff;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 7px;
+    color: rgba(0, 0, 0, 0.307);
+    font-weight: bold;
+}
+
+.upi img{
+    width: 20px;
+    margin-right: 10px;
+    position: relative;
+    top: 3px;
+}
+
+.pay_later{
+    padding: 15px 0px 15px 0px;
+}
+
+.pay_later label{
+    margin-right: 55%;
+}
+
+.pay_later i{
+    margin-right: 10px;
+    color: black;
+}
+
+.pay_later .input{
+    width: 100%;
+    background-color: #fff;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 7px;
+    color: rgba(0, 0, 0, 0.307);
+    font-weight: bold;
+}
+
+.proceed button{
+    width: 100%;
+    padding: 12px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    
+    font-size: 17px;
+}
+
+.image{
+    height: 0px;
+    overflow: hidden;
+    transition: height 0.3s ease-in-out;
+}
+
+.image img{
+    width: 30%;
+    height: auto;
+    position: relative;
+    top: -30px;
+    left: 30%;
+    bottom: -60px;
+}
+
+.show-image{
+    height: auto;
+}
+
+
+
+

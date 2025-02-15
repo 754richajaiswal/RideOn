@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.captain_signup{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.register{
+    width: 100%;
+    height: 14.3%;
+    background-color: #fdecf1;
+    border-bottom: 2px solid rgb(240, 167, 10);
+    display: flex;
+}
+
+.register h2{
+    padding: 35px 5px 5px 20px;
+    font-size: 30px;
+    color: rgb(240, 167, 10);
+}
+
+.register .buttons{
+    position: absolute;
+    left: 80%;
+    top: 39px;
+}
+
+.buttons button{
+    margin: 10px;
+    padding: 7px 15px;
+    background-color: rgba(128, 128, 128, 0.548);
+    border-style: none;
+    font-size: 16px;
+    border-radius: 1px;
+}
+
+.buttons button:hover{
+    border: 2px solid rgb(240, 167, 10);
+    border-bottom: #fff;
+    background-color: #fff;
+    color: rgb(240, 167, 10);
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.captaininfo{
+    display: flex;
+}
+
+.captaininfo .captain_info{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: 48%;
+    top: 120px;
+    padding: 20px;
+    width: 60%;
+}
+
+.captain_info h2{
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.captain_info input{
+    margin: 8px 30px 8px 0px;
+    padding: 15px;
+    width: 37%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.captain_info .captain_name{
+    display: flex;
+}
+
+
+.captain_info .number{
+    display: flex;
+}
+
+.captain_info .password{
+    display: flex;
+}
+
+
+
+.image img{
+    position: absolute;
+    margin-top: 50px;
+    left: -13px;
+    width: 500px;
+}
+
+#driver{
+    position: absolute;
+    top: 83%;
+    font-size: 32px;
+}
+
+
+.captain_info button{
+    width: 78%;
+    padding: 11px;
+    margin-top: 30px;
+    /* margin-left: 30%; */
+    background-color:rgb(240, 167, 10); 
+    color: #fff;
+    border-style: none;
+    font-size: 19px;
+    cursor: pointer;
+    /* font-weight: bold; */
+
+}
+
+.captain_info button:hover{
+    color:black;
+    background-color: rgba(240, 167, 10, 0.938);
+}
+

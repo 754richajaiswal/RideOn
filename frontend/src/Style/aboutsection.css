@@ -1,0 +1,77 @@
+.about_section{
+    margin-top: 160px;
+    height:100vh;
+    background-color: rgba(222, 228, 228, 0.342);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.earning{
+    margin-left: 50px;
+}
+
+.earning h1{
+    font-size: 30px;
+    margin-top: 40px;
+}
+
+.earning h1 span{
+    font-weight: bold;
+    color: orange;
+}
+
+.earning h2{
+    font-size: 38px;
+    padding-top: 20px;
+    margin-bottom: 18px;
+}
+
+.earning h4{
+    font-weight: bold;
+    font-size: 16px;
+    padding-top: 35px;
+}
+
+.earning p{
+    font-size: 15px;
+    padding-left: 40px;
+}
+
+.earning button{
+    margin: 0 20px;
+    margin-top: 40px;
+    padding: 10px 25px;
+}
+
+.earning .apply{
+    border-radius: 50px;
+    border-style: none;
+    background-color: rgb(10, 10, 10);
+    color: #fff;
+    font-size: 16px;
+    border-style: none;
+}
+
+.earning .apply:hover{
+    background-color: orange;
+    color: #fff;
+}
+
+.earning .pay_works{
+    border-style: none;
+    font-size: 16px;
+    background-color: transparent;
+    color: black;
+}
+
+.earning i{
+    padding: 10px;
+}
+
+.about_section img{
+    position: absolute;
+    width: 460px;
+    margin-left:57% ;
+    padding-top: 15%;
+}

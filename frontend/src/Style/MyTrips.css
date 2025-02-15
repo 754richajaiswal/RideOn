@@ -1,0 +1,95 @@
+
+.mytrips{
+    width: 100%;
+    height: 100vh;
+    background-color: #e4e3e3;
+}
+
+.trip_date{
+    width: 100%;
+    height: 25%;
+    position: relative;
+    background-color: #fff;
+    margin-top: 5px;
+}
+
+.trip_date h3{
+    color: rgb(235, 154, 5);
+    padding: 18px;
+    font-size: 20px;
+}
+
+.trip_date i{
+    color: rgb(235, 154, 5);
+    padding-right: 15px;
+}
+
+.trip_date hr{
+    position: absolute;
+    top: 40px;
+}
+
+.trip_date .date{
+   display: flex;
+   width: 100%;
+}
+
+.date .from_date{
+    margin: 10px 40px 10px 20px;
+}
+
+.from_date input{
+    margin: 7px 0px;
+    padding: 3px 10px;
+    border: 1.5px solid #ccc;
+    border-radius: 5px;
+    color: #888686;
+    font-size: 17px;
+}
+
+.date .to_date{
+    margin: 10px 40px 10px 20px;
+}
+
+.to_date input{
+    margin: 7px 0px;
+    padding: 3px 10px;
+    border: 1.5px solid #ccc;
+    border-radius: 5px;
+    color: #888686;
+    font-size: 17px;
+}
+
+.trip_date .trip_buttons{
+    position: absolute;
+    top: 66%;
+    left: 82%;
+}
+
+#search{
+    margin-right: 10px;
+    padding: 8px 17px;
+    border:none;
+    background-color: black;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+}
+
+#reset{
+    margin-left: 10px;
+    padding: 8px 17px;
+    border: none;
+    background-color: black;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.trip_list{
+    height: 65%;
+    background-color: #fff;
+    margin: 20px 10px;
+
+}
+

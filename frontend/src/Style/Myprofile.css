@@ -1,0 +1,97 @@
+.myprofile{
+    width: 100%;
+    height: 100%;
+}
+
+/* .profile-table {
+    margin: 20px;
+    border-collapse: collapse;
+  }
+  
+  .profile-table table {
+    width: 100%;
+    border: 1px solid #ddd;
+  }
+  
+  .profile-table th, .profile-table td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .profile-table th {
+    background-color: #f4f4f4;
+  } */
+  
+
+.profileinfo{
+  position: relative;
+  width: 97%;
+  height: 44vh;
+  margin: 70px  30px 20px 20px;
+  box-shadow: 0px 0px 10px #ccc;
+}
+
+.profile_heading{
+  width: 100%;
+  /* height: 5%; */
+}
+
+.profile_heading h2{
+  position: absolute;
+  top: 10%;
+  left: 10px;
+  /* color: #525151; */
+  color: rgb(235, 154, 5);
+}
+
+.profile_heading i{
+  padding-right: 20px;
+  padding-left: 7px;
+  color: rgb(235, 154, 5);
+}
+
+.profile_heading button{
+  position: absolute;
+  left: 93%;
+  top: 33px;
+  padding: 3px 10px;
+  border-radius: 5px;
+  background-color: black;
+  color: #fff;
+}
+
+hr{
+  position: absolute;
+  top: 20%;
+  width: 97%;
+  margin: 12px;
+  border: 1px solid #e7e6e6;
+}
+
+.user_details{
+  width: 100%;
+  display: flex;
+  position: absolute;
+  top: 35%;
+  justify-content: space-between;
+  padding: 10px 25px 0px 25px;
+
+}
+
+.user_details i{
+  padding: 10px;
+  color: #b1afaf;
+}
+
+table{
+  width: 90%;
+  border-collapse: collapse;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+td,th{
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 6px;
+}
